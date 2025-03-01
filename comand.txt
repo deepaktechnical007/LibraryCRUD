@@ -3,3 +3,30 @@ git status            # Check the status of your repository
 git add .             # Stage all changes (modified, new, and deleted files)
 git commit -m "Your commit message here"  # Commit with a message
 git push origin <branch-name>   # Push the changes to the remote repository (e.g., main)
+
+
+netstat -ano | findstr :8080
+taskkill /PID <PID> /F
+
+
+# H2 Database Configuration
+spring.datasource.url=jdbc:h2:mem:testdb;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE
+spring.datasource.driverClassName=org.h2.Driver
+spring.datasource.username=sa
+spring.datasource.password=password
+
+# JPA/Hibernate Configuration
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.database-platform=org.hibernate.dialect.H2Dialect
+
+# Enable H2 Console (Optional, for testing via browser)
+spring.h2.console.enabled=true
+spring.h2.console.path=/h2-console
+
+{
+    "id":1234,
+    "title":"stay hugry stay foolish",
+    "author":"rashmi desai",
+    "quantity":10,
+    "price":200.30
+}
