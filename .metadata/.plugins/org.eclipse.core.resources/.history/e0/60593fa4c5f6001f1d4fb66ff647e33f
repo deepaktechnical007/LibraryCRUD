@@ -1,0 +1,13 @@
+package com.example.demo.controller;
+
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class BookController {
+	
+	public String getHealth() {
+		
+		return "Service is up and running";
+	}
+
+}

@@ -1,0 +1,11 @@
+package com.example.demo.controller;
+
+@RestController
+public class BookController {
+	
+	public String getHealth() {
+		
+		return "Service is up and running";
+	}
+
+}

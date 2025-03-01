@@ -1,0 +1,5 @@
+git clone url_here
+git status            # Check the status of your repository
+git add .             # Stage all changes (modified, new, and deleted files)
+git commit -m "Your commit message here"  # Commit with a message
+git push origin <branch-name>   # Push the changes to the remote repository (e.g., main)
